@@ -49,6 +49,7 @@ ul {
 }
 .dropdown {
     position: relative;
+    align-items: end;
 }
 
 .dropdown .submenu {
@@ -90,6 +91,11 @@ ul {
 
 .dropdown a {
     font-weight: normal;
+}
+
+h2{
+    color: #34374c;
+    font-size: 16px;
 }
 
 .btn-outline-success {
@@ -283,7 +289,7 @@ a {
 
 .col-12 {
     -webkit-box-flex: 0;
-    max-width: 75%;
+    max-width: 60%;
     position: relative;
     width: 100%;
     padding-right: 15px;
